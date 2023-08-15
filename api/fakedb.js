@@ -1,0 +1,20 @@
+export const users = [
+    {
+        id:"23131",
+        firstName:"mukesh",
+        lastName:"kumar",
+        email:"mukesh@mukeshkumar.com",
+    },
+    {
+        id:"4232",
+        firstName:"suresh",
+        lastName:"sharma",
+        email:"suresh@sureshsharma.com",
+    },
+    {
+        id:"1388",
+        firstName:"Shreejal",
+        lastName:"shakya",
+        email:"shreejal@shreejal.com",
+    },
+]

@@ -1,0 +1,55 @@
+------------------------------
+query getAllUsers{
+  users{
+    id
+    firstName
+    lastName
+    email
+  }
+}
+
+
+---------------------------------
+mutation createUset($newUser:userInput!){
+  createUser(userNew:$newUser){
+    firstName
+    lastName
+    email
+}
+}
+
+
+-----------------------------------
+mutation {
+  updateUser(id: "4fa67c604e", update: {
+    firstName: "shuuyttsgsg",
+    lastName: "hsjsksks",
+    email: "suresh@sureshsharma.com"
+  }) {
+    id
+    firstName
+    lastName
+    email
+  }
+}
+
+
+-------------------------------------
+mutation delete {
+  deleteUser (id: "4fa67c604e"){
+    id
+    firstName
+    lastName
+    email
+  }
+}
+
+
+----------------------------------------
+query getUserById {
+  user(id: "4232"){
+    firstName
+    lastName
+    email
+  }
+}
